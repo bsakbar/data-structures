@@ -1,6 +1,5 @@
 const { Client } = require('pg');
 
-
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
 db_credentials.user = 'bsakbar';
@@ -15,9 +14,11 @@ client.connect();
 
 
 // Sample SQL statement to query the entire contents of a table: 
-var thisQuery = "SELECT * FROM address;";
-// var thisQuery = "SELECT * FROM geocode;";
-// var thisQuery = "SELECT count(*) FROM address JOIN geocode on address.ID=geocode.addressID;";
+// var thisQuery = "SELECT * FROM address;";
+// var thisQuery = "SELECT count(*) FROM Geocode;";
+// var thisQuery = "SELECT count(*) FROM Group_Details;";
+// var thisQuery = "SELECT count(*) FROM Meeting_Details;";
+var thisQuery = "SELECT * FROM address JOIN geocode on address.ID=geocode.addressID;";
 
 
 client.query(thisQuery, (err, res) => {

@@ -1,7 +1,7 @@
 var request = require('request'); // npm install request
 var async = require('async'); // npm install async
 var fs = require('fs');
-var addresses = JSON.parse(fs.readFileSync('streetAddress.json'));
+var addresses = JSON.parse(fs.readFileSync('streetAddress1.json'));
 var apiKey = process.env.TAMU_KEY; 
 var meetingsData = [];
 

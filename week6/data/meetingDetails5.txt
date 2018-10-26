@@ -1,0 +1,429 @@
+4 0 [ 'Sundays' ]
+4 0 [ '6:15 PM', '7:15 PM' ]
+4 0 ' C = Closed Discussion meeting '
+5 0 [ 'Tuesdays' ]
+5 0 [ '7:30 AM', '8:30 AM' ]
+5 0 ' S = Step meeting '
+5 1 [ 'Wednesdays' ]
+5 1 [ '7:30 AM', '8:30 AM' ]
+5 1 ' OD = Open Discussion meeting '
+5 2 [ 'Thursdays' ]
+5 2 [ '7:30 AM', '8:30 AM' ]
+5 2 ' O = Open meeting '
+5 3 [ 'Fridays' ]
+5 3 [ '7:30 AM', '8:30 AM' ]
+5 3 ' OD = Open Discussion meeting '
+5 4 [ 'Mondays' ]
+5 4 [ '7:30 AM', '8:30 AM' ]
+5 4 ' OD = Open Discussion meeting '
+6 0 [ 'Mondays' ]
+6 0 [ '5:45 PM', '6:45 PM' ]
+6 0 ' B = Beginners meeting '
+6 1 [ 'Wednesdays' ]
+6 1 [ '5:45 PM', '6:45 PM' ]
+6 1 ' B = Beginners meeting '
+7 0 [ 'Thursdays' ]
+7 0 [ '7:30 AM', '8:30 AM' ]
+7 0 ' OD = Open Discussion meeting '
+7 1 [ 'Mondays' ]
+7 1 [ '7:30 AM', '8:30 AM' ]
+7 1 ' S = Step meeting '
+7 2 [ 'Wednesdays' ]
+7 2 [ '7:30 AM', '8:30 AM' ]
+7 2 ' OD = Open Discussion meeting '
+7 3 [ 'Fridays' ]
+7 3 [ '7:45 AM', '8:45 AM' ]
+7 3 ' B = Beginners meeting '
+7 4 [ 'Mondays' ]
+7 4 [ '12:30 PM', '1:30 PM' ]
+7 4 ' B = Beginners meeting '
+7 5 [ 'Mondays' ]
+7 5 [ '12:30 PM', '1:30 PM' ]
+7 5 ' S = Step meeting '
+7 6 [ 'Tuesdays' ]
+7 6 [ '12:30 PM', '1:30 PM' ]
+7 6 ' B = Beginners meeting '
+7 7 [ 'Thursdays' ]
+7 7 [ '12:30 PM', '1:30 PM' ]
+7 7 ' O = Open meeting '
+7 8 [ 'Wednesdays' ]
+7 8 [ '12:30 PM', '1:30 PM' ]
+7 8 ' B = Beginners meeting '
+7 9 [ 'Wednesdays' ]
+7 9 [ '12:30 PM', '1:30 PM' ]
+7 9 ' S = Step meeting '
+7 10 [ 'Thursdays' ]
+7 10 [ '12:30 PM', '1:30 PM' ]
+7 10 ' B = Beginners meeting '
+7 11 [ 'Fridays' ]
+7 11 [ '12:30 PM', '1:30 PM' ]
+7 11 ' B = Beginners meeting '
+7 12 [ 'Fridays' ]
+7 12 [ '12:30 PM', '1:30 PM' ]
+7 12 ' BB = Big Book meeting '
+7 13 [ 'Tuesdays' ]
+7 13 [ '12:30 PM', '1:30 PM' ]
+7 13 ' S = Step meeting '
+8 0 [ 'Sundays' ]
+8 0 [ '12:45 PM', '1:45 PM' ]
+8 0 ' S = Step meeting '
+8 0 ' First Step Workshop'
+8 1 [ 'Sundays' ]
+8 1 [ '6:15 PM', '7:15 PM' ]
+8 1 ' B = Beginners meeting '
+8 2 [ 'Sundays' ]
+8 2 [ '6:15 PM', '7:15 PM' ]
+8 2 ' C = Closed Discussion meeting '
+8 2 ' Promises'
+8 3 [ 'Mondays' ]
+8 3 [ '6:15 PM', '7:15 PM' ]
+8 3 ' B = Beginners meeting '
+8 4 [ 'Tuesdays' ]
+8 4 [ '6:15 PM', '7:15 PM' ]
+8 4 ' B = Beginners meeting '
+8 5 [ 'Tuesdays' ]
+8 5 [ '6:15 PM', '7:15 PM' ]
+8 5 ' S = Step meeting '
+8 6 [ 'Wednesdays' ]
+8 6 [ '6:15 PM', '7:15 PM' ]
+8 6 ' BB = Big Book meeting '
+8 7 [ 'Wednesdays' ]
+8 7 [ '6:15 PM', '7:15 PM' ]
+8 7 ' C = Closed Discussion meeting '
+8 8 [ 'Thursdays' ]
+8 8 [ '6:15 PM', '7:15 PM' ]
+8 8 ' C = Closed Discussion meeting '
+8 9 [ 'Fridays' ]
+8 9 [ '6:15 PM', '7:15 PM' ]
+8 9 ' B = Beginners meeting '
+8 10 [ 'Fridays' ]
+8 10 [ '7:30 PM', '8:30 PM' ]
+8 10 ' OD = Open Discussion meeting '
+9 0 [ 'Mondays' ]
+9 0 [ '12:15 PM', '1:15 PM' ]
+9 0 ' C = Closed Discussion meeting '
+9 1 [ 'Wednesdays' ]
+9 1 [ '12:15 PM', '1:15 PM' ]
+9 1 ' S = Step meeting '
+9 2 [ 'Fridays' ]
+9 2 [ '12:15 PM', '1:15 PM' ]
+9 2 ' B = Beginners meeting '
+10 0 [ 'Sundays' ]
+10 0 [ '5:30 PM', '6:30 PM' ]
+10 0 ' B = Beginners meeting '
+10 1 [ 'Sundays' ]
+10 1 [ '5:30 PM', '6:30 PM' ]
+10 1 ' S = Step meeting '
+10 2 [ 'Tuesdays' ]
+10 2 [ '5:45 PM', '6:45 PM' ]
+10 2 ' OD = Open Discussion meeting '
+11 0 [ 'Mondays' ]
+11 0 [ '5:30 PM', '6:30 PM' ]
+11 0 ' B = Beginners meeting '
+11 1 [ 'Tuesdays' ]
+11 1 [ '5:30 PM', '6:30 PM' ]
+11 1 ' S = Step meeting '
+11 2 [ 'Fridays' ]
+11 2 [ '5:30 PM', '6:30 PM' ]
+11 2 ' C = Closed Discussion meeting '
+11 2 ' First Step Workshop'
+11 3 [ 'Wednesdays' ]
+11 3 [ '5:30 PM', '6:30 PM' ]
+11 3 ' BB = Big Book meeting '
+11 4 [ 'Thursdays' ]
+11 4 [ '5:30 PM', '6:30 PM' ]
+11 4 ' OD = Open Discussion meeting '
+12 0 [ 'Wednesdays' ]
+12 0 [ '8:00 PM', '9:00 PM' ]
+12 0 ' S = Step meeting '
+12 1 [ 'Fridays' ]
+12 1 [ '8:00 PM', '9:00 PM' ]
+12 1 ' OD = Open Discussion meeting '
+13 0 [ 'Mondays' ]
+13 0 [ '5:30 PM', '6:30 PM' ]
+13 0 ' B = Beginners meeting '
+13 1 [ 'Fridays' ]
+13 1 [ '5:30 PM', '6:30 PM' ]
+13 1 ' OD = Open Discussion meeting '
+14 0 [ 'Mondays' ]
+14 0 [ '12:30 PM', '1:30 PM' ]
+14 0 ' B = Beginners meeting '
+14 1 [ 'Tuesdays' ]
+14 1 [ '12:30 PM', '1:30 PM' ]
+14 1 ' C = Closed Discussion meeting '
+14 2 [ 'Wednesdays' ]
+14 2 [ '12:30 PM', '1:30 PM' ]
+14 2 ' S = Step meeting '
+14 3 [ 'Thursdays' ]
+14 3 [ '12:30 PM', '1:30 PM' ]
+14 3 ' C = Closed Discussion meeting '
+14 4 [ 'Fridays' ]
+14 4 [ '12:30 PM', '1:30 PM' ]
+14 4 ' B = Beginners meeting '
+15 0 [ 'Wednesdays' ]
+15 0 [ '12:30 PM', '1:15 PM' ]
+15 0 ' O = Open meeting '
+16 0 [ 'Saturdays' ]
+16 0 [ '7:30 PM', '8:30 PM' ]
+16 0 ' Eleventh Step Meditation'
+17 0 [ 'Mondays' ]
+17 0 [ '6:15 PM', '7:15 PM' ]
+17 0 ' B = Beginners meeting '
+17 1 [ 'Thursdays' ]
+17 1 [ '6:15 PM', '7:15 PM' ]
+17 1 ' S = Step meeting '
+17 2 [ 'Mondays' ]
+17 2 [ '7:15 PM', '8:15 PM' ]
+17 2 ' C = Closed Discussion meeting '
+18 0 [ 'Mondays' ]
+18 0 [ '6:15 PM', '7:15 PM' ]
+18 0 ' B = Beginners meeting '
+19 0 [ 'Tuesdays' ]
+19 0 [ '6:15 AM', '7:15 AM' ]
+19 0 ' BB = Big Book meeting '
+19 1 [ 'Thursdays' ]
+19 1 [ '7:30 AM', '8:30 AM' ]
+19 1 ' C = Closed Discussion meeting '
+19 2 [ 'Wednesdays' ]
+19 2 [ '7:30 AM', '8:30 AM' ]
+19 2 ' C = Closed Discussion meeting '
+19 3 [ 'Thursdays' ]
+19 3 [ '7:30 AM', '8:30 AM' ]
+19 3 ' C = Closed Discussion meeting '
+19 4 [ 'Wednesdays' ]
+19 4 [ '7:30 AM', '8:30 AM' ]
+19 4 ' C = Closed Discussion meeting '
+19 5 [ 'Tuesdays' ]
+19 5 [ '7:30 AM', '8:30 AM' ]
+19 5 ' C = Closed Discussion meeting '
+19 6 [ 'Mondays' ]
+19 6 [ '7:30 AM', '8:30 AM' ]
+19 6 ' C = Closed Discussion meeting '
+19 7 [ 'Tuesdays' ]
+19 7 [ '7:30 AM', '8:30 AM' ]
+19 7 ' C = Closed Discussion meeting '
+19 8 [ 'Sundays' ]
+19 8 [ '7:30 AM', '8:30 AM' ]
+19 8 ' C = Closed Discussion meeting '
+19 9 [ 'Mondays' ]
+19 9 [ '7:30 AM', '8:30 AM' ]
+19 9 ' C = Closed Discussion meeting '
+19 10 [ 'Fridays' ]
+19 10 [ '7:30 AM', '8:30 AM' ]
+19 10 ' C = Closed Discussion meeting '
+19 11 [ 'Thursdays' ]
+19 11 [ '7:30 AM', '8:30 AM' ]
+19 11 ' C = Closed Discussion meeting '
+19 12 [ 'Saturdays' ]
+19 12 [ '8:00 AM', '9:00 AM' ]
+19 12 ' C = Closed Discussion meeting '
+19 13 [ 'Saturdays' ]
+19 13 [ '8:00 AM', '9:00 AM' ]
+19 13 ' C = Closed Discussion meeting '
+19 14 [ 'Thursdays' ]
+19 14 [ '8:00 AM', '9:00 AM' ]
+19 14 ' C = Closed Discussion meeting '
+19 15 [ 'Sundays' ]
+19 15 [ '8:15 AM', '9:15 AM' ]
+19 15 ' C = Closed Discussion meeting '
+19 16 [ 'Thursdays' ]
+19 16 [ '9:30 AM', '10:30 AM' ]
+19 16 ' C = Closed Discussion meeting '
+19 16 ' Daily Reflections'
+19 17 [ 'Wednesdays' ]
+19 17 [ '9:30 AM', '10:30 AM' ]
+19 17 ' C = Closed Discussion meeting '
+19 17 ' Daily Reflections'
+19 18 [ 'Tuesdays' ]
+19 18 [ '9:30 AM', '10:30 AM' ]
+19 18 ' C = Closed Discussion meeting '
+19 18 ' Daily Reflections'
+19 19 [ 'Mondays' ]
+19 19 [ '9:30 AM', '10:30 AM' ]
+19 19 ' C = Closed Discussion meeting '
+19 19 ' Daily Reflections'
+19 20 [ 'Sundays' ]
+19 20 [ '9:30 AM', '10:30 AM' ]
+19 20 ' C = Closed Discussion meeting '
+19 21 [ 'Sundays' ]
+19 21 [ '9:30 AM', '10:30 AM' ]
+19 21 ' S = Step meeting '
+19 22 [ 'Saturdays' ]
+19 22 [ '9:30 AM', '10:30 AM' ]
+19 22 ' C = Closed Discussion meeting '
+19 23 [ 'Fridays' ]
+19 23 [ '9:30 AM', '10:30 AM' ]
+19 23 ' C = Closed Discussion meeting '
+19 23 ' Daily Reflections'
+19 24 [ 'Saturdays' ]
+19 24 [ '10:00 AM', '11:00 AM' ]
+19 24 ' BB = Big Book meeting '
+19 25 [ 'Sundays' ]
+19 25 [ '11:00 AM', '12:00 PM' ]
+19 25 ' BB = Big Book meeting '
+19 26 [ 'Fridays' ]
+19 26 [ '11:30 AM', '12:30 PM' ]
+19 26 ' C = Closed Discussion meeting '
+19 27 [ 'Thursdays' ]
+19 27 [ '11:30 AM', '12:30 PM' ]
+19 27 ' C = Closed Discussion meeting '
+19 28 [ 'Wednesdays' ]
+19 28 [ '11:30 AM', '12:30 PM' ]
+19 28 ' C = Closed Discussion meeting '
+19 29 [ 'Tuesdays' ]
+19 29 [ '11:30 AM', '12:30 PM' ]
+19 29 ' C = Closed Discussion meeting '
+19 30 [ 'Mondays' ]
+19 30 [ '11:30 AM', '12:30 PM' ]
+19 30 ' C = Closed Discussion meeting '
+19 31 [ 'Saturdays' ]
+19 31 [ '12:45 PM', '1:45 PM' ]
+19 31 ' C = Closed Discussion meeting '
+19 32 [ 'Fridays' ]
+19 32 [ '12:45 PM', '1:45 PM' ]
+19 32 ' C = Closed Discussion meeting '
+19 33 [ 'Thursdays' ]
+19 33 [ '12:45 PM', '1:45 PM' ]
+19 33 ' C = Closed Discussion meeting '
+19 34 [ 'Wednesdays' ]
+19 34 [ '12:45 PM', '1:45 PM' ]
+19 34 ' C = Closed Discussion meeting '
+19 35 [ 'Tuesdays' ]
+19 35 [ '12:45 PM', '1:45 PM' ]
+19 35 ' C = Closed Discussion meeting '
+19 36 [ 'Mondays' ]
+19 36 [ '12:45 PM', '1:45 PM' ]
+19 36 ' C = Closed Discussion meeting '
+19 37 [ 'Sundays' ]
+19 37 [ '12:45 PM', '1:45 PM' ]
+19 37 ' S = Step meeting '
+19 37 ' First Step Workshop'
+19 38 [ 'Sundays' ]
+19 38 [ '3:00 PM', '4:00 PM' ]
+19 38 ' C = Closed Discussion meeting '
+19 38 ' Women'
+19 39 [ 'Fridays' ]
+19 39 [ '3:15 PM', '4:15 PM' ]
+19 39 ' C = Closed Discussion meeting '
+19 40 [ 'Thursdays' ]
+19 40 [ '3:15 PM', '4:15 PM' ]
+19 40 ' C = Closed Discussion meeting '
+19 41 [ 'Wednesdays' ]
+19 41 [ '3:15 PM', '4:15 PM' ]
+19 41 ' C = Closed Discussion meeting '
+19 42 [ 'Tuesdays' ]
+19 42 [ '3:15 PM', '4:15 PM' ]
+19 42 ' C = Closed Discussion meeting '
+19 43 [ 'Mondays' ]
+19 43 [ '3:15 PM', '4:15 PM' ]
+19 43 ' C = Closed Discussion meeting '
+19 44 [ 'Saturdays' ]
+19 44 [ '5:30 PM', '6:30 PM' ]
+19 44 ' B = Beginners meeting '
+19 45 [ 'Sundays' ]
+19 45 [ '6:15 PM', '7:00 PM' ]
+19 45 ' B = Beginners meeting '
+19 46 [ 'Fridays' ]
+19 46 [ '6:15 PM', '7:15 PM' ]
+19 46 ' B = Beginners meeting '
+19 47 [ 'Thursdays' ]
+19 47 [ '6:15 PM', '7:15 PM' ]
+19 47 ' C = Closed Discussion meeting '
+19 48 [ 'Wednesdays' ]
+19 48 [ '6:15 PM', '7:15 PM' ]
+19 48 ' C = Closed Discussion meeting '
+19 49 [ 'Tuesdays' ]
+19 49 [ '6:15 PM', '7:15 PM' ]
+19 49 ' B = Beginners meeting '
+19 50 [ 'Wednesdays' ]
+19 50 [ '6:15 PM', '7:15 PM' ]
+19 50 ' BB = Big Book meeting '
+19 51 [ 'Mondays' ]
+19 51 [ '6:15 PM', '7:15 PM' ]
+19 51 ' B = Beginners meeting '
+19 52 [ 'Tuesdays' ]
+19 52 [ '6:15 PM', '7:15 PM' ]
+19 52 ' S = Step meeting '
+19 53 [ 'Fridays' ]
+19 53 [ '7:30 PM', '8:30 PM' ]
+19 53 ' OD = Open Discussion meeting '
+19 54 [ 'Saturdays' ]
+19 54 [ '7:30 PM', '8:30 PM' ]
+19 54 ' Meditation'
+19 55 [ 'Tuesdays' ]
+19 55 [ '8:00 PM', '9:00 PM' ]
+19 55 ' C = Closed Discussion meeting '
+19 56 [ 'Sundays' ]
+19 56 [ '8:00 PM', '9:00 PM' ]
+19 56 ' B = Beginners meeting '
+19 57 [ 'Thursdays' ]
+19 57 [ '8:00 PM', '9:00 PM' ]
+19 57 ' C = Closed Discussion meeting '
+19 57 ' Men'
+19 58 [ 'Wednesdays' ]
+19 58 [ '8:00 PM', '9:00 PM' ]
+19 58 ' S = Step meeting '
+19 59 [ 'Mondays' ]
+19 59 [ '8:00 PM', '9:00 PM' ]
+19 59 ' B = Beginners meeting '
+19 59 ' Women'
+19 60 [ 'Fridays' ]
+19 60 [ '10:00 PM', '11:00 PM' ]
+19 60 ' OD = Open Discussion meeting '
+20 0 [ 'Tuesdays' ]
+20 0 [ '7:30 AM', '8:30 AM' ]
+20 0 ' C = Closed Discussion meeting '
+20 0 ' Living Sober'
+21 0 [ 'Saturdays' ]
+21 0 [ '4:00 PM', '5:00 PM' ]
+21 0 ' C = Closed Discussion meeting '
+22 0 [ 'Saturdays' ]
+22 0 [ '10:00 AM', '11:00 AM' ]
+22 0 ' S = Step meeting '
+23 0 [ 'Tuesdays' ]
+23 0 [ '7:30 AM', '8:30 AM' ]
+23 0 ' BB = Big Book meeting '
+23 1 [ 'Fridays' ]
+23 1 [ '6:30 PM', '7:30 PM' ]
+23 1 ' S = Step meeting '
+23 2 [ 'Fridays' ]
+23 2 [ '8:00 PM', '9:00 PM' ]
+23 2 ' B = Beginners meeting '
+24 0 [ 'Tuesdays' ]
+24 0 [ '5:30 PM', '6:30 PM' ]
+24 0 ' BB = Big Book meeting '
+25 0 [ 'Thursdays' ]
+25 0 [ '12:30 PM', '1:30 PM' ]
+25 0 ' C = Closed Discussion meeting '
+25 0 ' Women'
+26 0 [ 'Fridays' ]
+26 0 [ '12:30 PM', '1:30 PM' ]
+26 0 ' BB = Big Book meeting '
+26 1 [ 'Mondays' ]
+26 1 [ '12:30 PM', '1:30 PM' ]
+26 1 ' C = Closed Discussion meeting '
+26 2 [ 'Wednesdays' ]
+26 2 [ '12:30 PM', '1:30 PM' ]
+26 2 ' S = Step meeting '
+27 0 [ 'Saturdays' ]
+27 0 [ '6:00 PM', '7:00 PM' ]
+27 0 ' C = Closed Discussion meeting '
+27 0 ' Promises'
+27 1 [ 'Saturdays' ]
+27 1 [ '7:15 PM', '8:15 PM' ]
+27 1 ' B = Beginners meeting '
+27 2 [ 'Saturdays' ]
+27 2 [ '8:30 PM', '9:30 PM' ]
+27 2 ' OD = Open Discussion meeting '
+28 0 [ 'Wednesdays' ]
+28 0 [ '6:15 PM', '7:15 PM' ]
+28 0 ' OD = Open Discussion meeting '
+29 0 [ 'Tuesdays' ]
+29 0 [ '6:45 PM', '7:45 PM' ]
+29 0 ' OD = Open Discussion meeting '
+30 0 [ 'Thursdays' ]
+30 0 [ '6:15 PM', '7:15 PM' ]
+30 0 ' OD = Open Discussion meeting '
+31 0 [ 'Wednesdays' ]
+31 0 [ '5:45 PM', '7:15 PM' ]
+31 0 ' S = Step meeting '

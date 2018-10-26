@@ -1,0 +1,113 @@
+Location_Name: 
+Group_Name: AA LITERATURE 
+4 [ 'FRONT BASEMENT ONLY' ]
+4 false
+Location_Name: 
+Group_Name: BREAKFAST CLUB 
+5 [ 'All meetings are Round Robin format except Thursday.',
+  'Tue=Alternating Step/Trad.' ]
+5 false
+Location_Name: Cathedral High School
+Group_Name: CARLYLE 
+6 [ '3rd Floor library' ]
+6 false
+Location_Name: St. Peter's Lutheran Church @ Citicorp Center
+Group_Name: CITY GROUP 
+7 [ 'T -7:30am last Mon., Anniv -12:30 Last Thursday' ]
+7 false
+Location_Name: 
+Group_Name: COURAGE TO CHANGE 
+8 [ 'Wed.6:15 BB=OD Big Book Study',
+  'Fri.7:30pm=Anniv. Meeting every Fri.' ]
+8 false
+Location_Name: J.H. Holmes Community House
+Group_Name: EMPIRE STATE 
+9 [ 'T Last Wednesday' ]
+9 false
+Location_Name: Cathedral High School 
+Group_Name: GOTHAM 
+10 [ 'Beginners Meeting 2nd and 4th Sunday',
+  'Step Meeting 1st &amp;3rd Sunday' ]
+10 false
+Location_Name: Soldiers, Sailors, Marines & Airmen's Club
+Group_Name: GRAND CENTRAL 
+11 [ 'T=Last Tuesday, Fri=Anniv. 2nd to Last Friday.',
+  'All meetings are non-smoking.' ]
+11 false
+Location_Name: 
+Group_Name: GRUPO BRASIL 
+12 [ 'Portugese speaking meeting.' ]
+12 false
+Location_Name: St. Peter's Lutheran Church @ CitiCorp Center
+Group_Name: LIFE LINE 
+13 [ 'All meetings are non-smoking.' ]
+13 true
+Location_Name: Saint Agnes Church
+Group_Name: LUNCH BUNCH 
+14 [ 'Enter main Church entrance, turn left, meeting is downstairs.',
+  'T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri.' ]
+14 true
+Location_Name: MUSTARD SEED
+Group_Name: LUNCHTIME EXPRESS AT THE MUSTARD SEED 
+15 false
+Location_Name: Mustard Seed
+Group_Name: MEDITATION SATURDAY NIGHT 
+16 [ '11th S Meditation', 'ENT BASEMENT ONLY' ]
+16 false
+Location_Name: St. Agnes Church
+Group_Name: MONDAY MEN 
+17 false
+Location_Name: Church of the Incarnation
+Group_Name: MURRAY HILL 
+18 [ 'No Meetings on Legal Holidays.' ]
+18 false
+Location_Name: 
+Group_Name: MUSTARD SEED 
+19 [ 'Sun.7:30am,Tue.6:15pm B and Wed.6:15pm C =Meditation Wkshp.,',
+  'Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri.',
+  'Thurs. 8am back room, Gratitude' ]
+19 false
+Location_Name: St. Peter's Lutheran Church @ CitiCorp Center
+Group_Name: REBELLION DOGS 
+20 [ 'Living Sober' ]
+20 true
+Location_Name: Church of the Good Shepherd
+Group_Name: SATURDAY EAST 
+21 [ 'Focus is on members under 60 days.  All are welcome.',
+  'Anniversaries last week of month' ]
+21 true
+Location_Name: The New York New Church
+Group_Name: SATURDAY STEP 
+22 true
+Location_Name: ALL SAINTS CHURCH
+Group_Name: SERENITY EAST 
+23 [ 'Fri.6:30=Steps 3 and 11' ]
+23 false
+Location_Name: Caron Foundation
+Group_Name: SERENITY EAST (:I) 
+24 true
+Location_Name: St. Peter's Lutheran Church @ CitiCorp Center
+Group_Name: SILKWORTH WOMEN'S 
+25 [ 'Women’s Meeting.' ]
+25 true
+Location_Name: St. Bartholomew's Church
+Group_Name: ST. BART'S TWELVE
+26 [ 'Anniv. Last Mon., T-Last Wed., Topic-Last Fri. All meetings are OPEN to Public',
+  'NOTE: Monday and Wednesday in Choir Room. Friday in Vestry Room. Also check the Board at Church entrance.' ]
+26 false
+Location_Name: CHURCH OF THE GOOD SHEPARD
+Group_Name: STRAIGHT 12 
+27 false
+Location_Name: Conservative Synagogue
+Group_Name: TEMPLETON 
+28 false
+Location_Name: The Caron Foundation
+Group_Name: TRAFALGAR 
+29 true
+Location_Name: Caron Foundation
+Group_Name: TUDOR 
+30 true
+Location_Name: 
+Group_Name: WOMEN'S ELEVENTH STEP 
+31 [ '11th Step, Anniv. 3rd Wednesday', 'No Smoking' ]
+31 true

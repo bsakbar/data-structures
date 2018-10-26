@@ -1,0 +1,119 @@
+Location_Name: University Settlement
+Group_Name: A.A. ON THE BOWERY 
+4 true
+Location_Name: Manhattan Seventh-Day Adventist Church
+Group_Name: AFTER FIVE 
+5 false
+Location_Name: Hazelden Center
+Group_Name: AFTERNOON DELIGHT 
+6 [ 'Sex inventory 4th step literature meeting',
+  'Meets 1st and 3rd Saturday of the month from noon-1' ]
+6 true
+Location_Name: Seventh Day Adventist Church
+Group_Name: ARTISTS IN RECOVERY (A.R.T.) 
+7 false
+Location_Name: 
+Group_Name: BAGELS AND BIG BOOK 
+8 [ 'NOTE: Meeting only meets on the 1st and 3rd Sunday of each month',
+  '*Big Book Workshop, Meeting ends at Noon.' ]
+8 false
+Location_Name: Golden Bridge Yoga Center
+Group_Name: CENTER MEETING 
+9 [ 'No shoes worn in meeting location.',
+  'A short meditation opens the meeting.' ]
+9 false
+Location_Name: University Settlement (The Chinatown YMCA)
+Group_Name: EAST VILLAGE SOBER AGNOSTICS 
+10 [ 'Ask front desk for meeting location' ]
+10 true
+Location_Name: St. Luke's Episcopal School
+Group_Name: GREENWICH VILLAGE 
+11 [ 'Mon.Step=Rotates Steps 1,2and3, Fri.= T. Last Friday.',
+  'Parents with children are welcome.' ]
+11 false
+Location_Name: St. Augustine's Church
+Group_Name: GRUPO CENTRAL 
+12 [ 'Spanish speaking meetings.' ]
+12 true
+Location_Name: Manhattan Church of The Seventh-day Adventist
+Group_Name: HAPPY, JOYOUS AND FREE 
+13 [ 'Topic Meeting for gay men approaching and over 40. All are welcome.' ]
+13 true
+Location_Name: Church of Saint Theresa Rectory
+Group_Name: LOWER EAST SIDE 
+14 false
+Location_Name: 
+Group_Name: MIDNITE 
+15 [ 'Sun.12:30=Meditation, 2am Meetings=Pitch meeting with candlelight.',
+  'Mon.8pm=Topic, Tues.10pm=T last Tues., Thu.10pm=Problems in Sobriety',
+  'Sun.8pm=Bus.Meeting last Sun.,Sat.10pm=Anniv.Last' ]
+15 false
+Location_Name: St. John's Lutheran Church
+Group_Name: NEW GROUP 
+16 [ 'Gay and Lesbian focus.  All are welcome.' ]
+16 false
+Location_Name: 
+Group_Name: PERRY STREET WORKSHOP 
+17 [ 'No 8:30 or 10:15 1st Wed of month due to Bus. meeting',
+  'Wed.10:15pm=No BB 1st Wed.' ]
+17 false
+Location_Name: Seventh Day Adventist Church
+Group_Name: PRIMETIME NYC (I) 
+18 false
+Location_Name: St. John's Episcopal Church
+Group_Name: RED DOOR 
+19 [ 'Fri.7:00pm=Promises Meeting',
+  'All meetings are Gay and Lesbian focused.  All are welcome.' ]
+19 false
+Location_Name: St. Anthony's of Padua
+Group_Name: ROOM FOR IMPROVEMENT     (:I) 
+20 [ 'Wed.=Topic, Thu.=Promises and Fri.=T Last Fri.' ]
+20 false
+Location_Name: Chinatown YMCA
+Group_Name: ROOM FOR IMPROVEMENT     (:II) 
+21 true
+Location_Name: St. Joseph's Church
+Group_Name: SHERIDAN SQUARE FOLLIES 
+22 [ 'Gay and Lesbian Focus.  All are welcome.' ]
+22 true
+Location_Name: St. Anthony of Padua Church
+Group_Name: SOHO    (:I) 
+23 [ 'Mon.7pm=Anniv Last Mon., Fri.6:30pm=Interpreted for Deaf and Hard of Hearing.',
+  'Friday Meeting occasionally changes the location;  please call New York Inter-Group to confirm meeting location.' ]
+23 false
+Location_Name: The Bronfman Cernter @ NYU
+Group_Name: SPIRITUAL WORKSHOP 
+24 [ 'Lower level' ]
+24 false
+Location_Name: Seventh Adventist Church
+Group_Name: T&A
+25 [ 'Literature' ]
+25 false
+Location_Name: St. John's Lutheran Church
+Group_Name: TEN PLUS 
+26 [ 'The speaker will have 10+ years of sobriety. All welcome.',
+  'Please ring Meeting Bell only' ]
+26 false
+Location_Name: University Settlement (The Chinatown YMCA)
+Group_Name: THE CAPTAIN'S TABLE 
+27 [ 'Men’s Meeting' ]
+27 true
+Location_Name: Manhattan Seventh-Day Adventist Church
+Group_Name: TOGETHER WE CAN 
+28 false
+Location_Name: Manhattan Church of The Seventh-day Adventist
+Group_Name: WEDNESDAY FOCUS 
+29 true
+Location_Name: St. John's Lutheran Church
+Group_Name: WEST VILLAGE WOMEN 
+30 [ 'Focus women 5+ years of sobriety. All are welcome.',
+  'Enter through Red Door left of church, Buzzer-Meeting Room' ]
+30 true
+Location_Name: 
+Group_Name: WOMEN INTO ACTION 
+31 [ 'Women’s Meeting' ]
+31 false
+Location_Name: University Settlement @ Houston Street Center
+Group_Name: WOMEN TOGETHER      (:II) 
+32 [ '*Women’s Meeting', 'Lesbian focus.  All are welcome.' ]
+32 true

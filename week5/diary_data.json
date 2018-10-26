@@ -40,5 +40,47 @@
             },
     "colors": ["#F49976", "#77688E", "#FF9648"],
     "location": "Buffalo"
+},
+{
+    "photo_reference":"string",
+    "weather": { "temperature": "54", "description": "sunny"},
+    "time": { "day": "Wednesday", "time": "6:40" },
+    "filters": { "light" : { "exposure":  "+4",
+                        "contrast": "0",
+                        "shadows": "-3"},
+            "color" : { "saturation": "-8",
+                         "warmth": "0",
+                         "tint": "0" }
+            },
+    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "location": "New York"
+},
+{
+    "photo_reference":"string",
+    "weather": { "temperature": "45", "description": "cloudy"},
+    "time": { "day": "Thursday", "time": "7:00" },
+    "filters": { "light" : { "exposure":  "+5",
+                        "contrast": "+12",
+                        "shadows": "-5"},
+            "color" : { "saturation": "+22",
+                         "warmth": "+7",
+                         "tint": "+28" }
+            },
+    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "location": "New York"
+},
+{
+    "photo_reference":"string",
+    "weather": { "temperature": "66", "description": "cloudy"},
+    "time": { "day": "Friday", "time": "7:22" },
+    "filters": { "light" : { "exposure":  "+5",
+                        "contrast": "+12",
+                        "shadows": "-5"},
+            "color" : { "saturation": "+22",
+                         "warmth": "+20",
+                         "tint": "+28" }
+            },
+    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "location": "New York"
 }
 ]

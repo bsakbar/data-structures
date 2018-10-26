@@ -1,6 +1,6 @@
 var fs = require('fs');
 var cheerio = require('cheerio');
-var content = fs.readFileSync('../week1/data/m02.txt');
+var content = fs.readFileSync('../week1/data/m01.txt');
 var $ = cheerio.load(content);
 var streetAddress = [];
 var addressline1, addressline2;
@@ -23,4 +23,4 @@ $('h4').each(function(i, elem) {
     }
 });
 
-fs.writeFileSync('streetAddress.json', JSON.stringify(streetAddress));
+fs.writeFileSync('streetAddress1.json', JSON.stringify(streetAddress));

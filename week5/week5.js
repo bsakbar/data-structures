@@ -39,13 +39,21 @@ AWS.config.secretAccessKey = process.env.AWS_KEY;
 AWS.config.region = "us-east-1";
 
 var dynamodb = new AWS.DynamoDB();
+var async = require('async'); 
 
-var params = {};
-params.Item = diaryEntries[0]; 
-params.TableName = "deardiary";
-
-dynamodb.putItem(params, function (err, data) {
-  if (err) console.log(err, err.stack); // an error occurred
-  else     console.log(data);           // successful response
+console.log(diaryEntries)
+async.eachSeries(diaryEntries, function(value, callback) {
+    
+    var params = {};
+    params.Item = value; 
+    params.TableName = "deardiary";
+    
+    dynamodb.putItem(params, function (err, data) {
+      if (err) console.log(err, err.stack); // an error occurred
+      else     console.log(data);           // successful response
+    });
+    
+    setTimeout(callback, 1000);
+}, function() {
+    console.log('Done!');
 });
-

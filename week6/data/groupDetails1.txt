@@ -1,0 +1,95 @@
+Location_Name: St Andrews Church
+Group_Name: A DESIGN FOR LIVING 
+4 [ '@Duane and Centre behind Federal courthouse',
+  'enter thru driveway behind Church',
+  'No meetings on Holidays' ]
+4 false
+Location_Name: St. Andrew's Church
+Group_Name: CHAMBERS STREET 
+5 [ 'No meetings on Holidays.',
+  '**LOCATION SUBJECT TO CHANGE- Call Inter-Group' ]
+5 false
+Location_Name: Church of the Transfiguration
+Group_Name: CHINATOWN 
+6 false
+Location_Name: St. Margaret's Residence
+Group_Name: DOWNTOWN 
+7 true
+Location_Name: 
+Group_Name: EXCHANGE VIEWS @ JOHN STREET CHURCH 
+8 [ 'Thursday 1:30 = Alt. Step/Tradition',
+  'Email exchangeviews1215@yahoo.com for questions' ]
+8 false
+Location_Name: 
+Group_Name: EXCHANGE VIEWS @ ST. MARGARET'S HOUSE 
+9 [ 'This is new location as of 9-12-14',
+  'M 7:30 am= Trad 1st Monday.' ]
+9 true
+Location_Name: St. Andrew's Church
+Group_Name: FRIDAY DOWNTOWN 
+10 [ 'Note: Location Subject to change' ]
+10 true
+Location_Name: St. Peter's Church
+Group_Name: GATEWAY 
+11 false
+Location_Name: St. Andrew's Church
+Group_Name: PASSING THE BAR 
+12 [ '*Business meeting last Tuesday @ Mar,Jun,Sep and Dec.only.',
+  '**Promises 1st Wednesday, ***T Last Thursday',
+  '** LOCATION IS SUBJECT TO CHANGE' ]
+12 true
+Location_Name: Saint Peter's Church
+Group_Name: S.O.B.E.R. 
+13 [ 'Enter on Church Street', 'Lower floor, Parish Office Room' ]
+13 false
+Location_Name: Hazelden Tribeca
+Group_Name: SANE AND SOBER 
+14 [ 'Mental Health Challenges in Sobriety.',
+  '*Alternating Closed and rotating 1, 2, 3 Step every other week. Open &#x2013; Last Wednesday.' ]
+14 true
+Location_Name: Municipal Union Bldg DC 37
+Group_Name: SATURDAY AFTERNOON DISCUSSION 
+15 [ 'Ask security guard for room #' ]
+15 false
+Location_Name: St. Margaret's House
+Group_Name: SEAMEN'S GROUP 
+16 [ '*Co-ed meeting, all are welcome.' ]
+16 true
+Location_Name: St. Margaret's House
+Group_Name: SEAPORT 
+17 [ '11th Step Meditation (Mon), Topic (Thu)' ]
+17 true
+Location_Name: Church of Saint Andrew
+Group_Name: TOWER 
+18 [ 'Step 1st Wednesday' ]
+18 false
+Location_Name: Tribeca 12 Building
+Group_Name: TRIANGLE GROUP 
+19 [ 'Walk thru green doors; first floor, rear.',
+  'Addtl meditation meeting on Sunday at 11:15 if room full' ]
+19 true
+Location_Name: 
+Group_Name: TRIBECA GROUP @ ST. MARGARET'S HOUSE 
+20 [ 'this is the new location as of 9/8/14',
+  'tribecagroup2014@gmail.com' ]
+20 true
+Location_Name: St. Peter's Church
+Group_Name: TRIBECA GROUP @ ST. PETER'S CHURCH 
+21 [ 'Monday step - 3rd and 11th step workshop',
+  'tribecagroup2014@gmail.com' ]
+21 false
+Location_Name: St. Andrew's Church
+Group_Name: WOMEN'S DOWNTOWN AA STEP MEETING 
+22 false
+Location_Name: Hazelden Center
+Group_Name: YOUNG PEOPLE'S DIVERSITY 
+23 [ 'Lesbian, Gay, Bi-sexual and Transgendered Focus',
+  'All are welcome.' ]
+23 false
+Location_Name: Hazelden Center
+Group_Name: YOUNG PEOPLE'S STEP 
+24 true
+Location_Name: Hazelden Center
+Group_Name: YOUTH ENJOYING SOBRIETY (Y.E.S.) 
+25 [ 'Open Anniv. Last Saturday.' ]
+25 true

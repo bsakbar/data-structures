@@ -1,4 +1,5 @@
 const { Client } = require('pg');
+var async = require('async');
 
 // AWS RDS POSTGRESQL INSTANCE
 var db_credentials = new Object();
@@ -12,7 +13,14 @@ db_credentials.port = 5432;
 const client = new Client(db_credentials);
 client.connect();
 var queries = []
-//Sample SQL statement to create a table: 
+
+// Sample SQL statement to delete a table: 
+queries.push("DROP TABLE Geocode;");
+queries.push("DROP TABLE Meeting_Details;");
+queries.push("DROP TABLE Group_Details;");
+queries.push("DROP TABLE address;"); 
+
+
 queries.push(`CREATE TABLE Address (
     ID int NOT NULL,
     Street VARCHAR(50) NOT NULL,
@@ -55,21 +63,13 @@ queries.push( `CREATE TABLE Geocode (
     FOREIGN KEY (AddressID) REFERENCES Address(ID)
 );`);
 
-// Sample SQL statement to delete a table: 
-// var thisQuery = "DROP TABLE address;"; 
-
-client.query(thisQuery, (err, res) => {
-    console.log(err, res);
-    client.end();
-});
 
 
-async.eachSeries(addressesForDb, function(value, callback) {
+async.eachSeries(queries, function(value, callback) {
 
     const client = new Client(db_credentials);
     client.connect();
-    var thisQuery = "INSERT INTO Address VALUES (" + id + ", E'" + value.InputAddress.StreetAddress + "', E'" + value.InputAddress.City + "', E'" + value.InputAddress.State + "', " + 00000 +");";
-    id += 1
+    var thisQuery = value
     client.query(thisQuery, (err, res) => {
         console.log(err, res);
         client.end();
