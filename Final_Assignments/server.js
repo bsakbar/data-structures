@@ -122,7 +122,7 @@ html {
 
 body {
 	background:#091824;
-  background-image: url("aurora.svg");
+    background-image: url("aurora.svg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	overflow: hidden;
@@ -485,10 +485,18 @@ var hx = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>AA Meetings</title>
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <style>
+  
+  #mapid { height: 100vh; } </style>
+  
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
    crossorigin=""/>
+   
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+   
   <meta name="description" content="Meetings of AA in Manhattan">
   <meta name="author" content="AA">
   
@@ -505,6 +513,8 @@ var hx = `<!doctype html>
   `;
   
 var jx = `;
+
+
     var mymap = L.map('mapid').setView([40.734636,-73.994997], 13);
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -513,6 +523,9 @@ var jx = `;
         // accessToken: 'your.mapbox.access.token'
         accessToken: 'pk.eyJ1IjoiYnNha2JhciIsImEiOiJjam14em1hNmQweHZlM3FwbHVtbmQ5eXdoIn0.XgXo8yf68EhBjNTZ6nXhpg'
     }).addTo(mymap);
+
+    
+    
     for (var i=0; i<data.length; i++) {
         L.marker( [data[i].lat, data[i].lon] ).bindPopup(JSON.stringify(data[i].meetings)).addTo(mymap);
     }
