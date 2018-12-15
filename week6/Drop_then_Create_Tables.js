@@ -2,11 +2,18 @@ const { Client } = require('pg');
 var async = require('async');
 
 // AWS RDS POSTGRESQL INSTANCE
+// var db_credentials = new Object();
+// db_credentials.user = 'bsakbar';
+// db_credentials.host = 'batooldb.ck6ozubjtrdo.us-east-1.rds.amazonaws.com';
+// db_credentials.database = 'mydb';
+// db_credentials.password = process.env.AWSRDS_PW;
+// db_credentials.port = 5432;
+
 var db_credentials = new Object();
-db_credentials.user = 'bsakbar';
-db_credentials.host = 'batooldb.ck6ozubjtrdo.us-east-1.rds.amazonaws.com';
-db_credentials.database = 'mydb';
-db_credentials.password = process.env.AWSRDS_PW;
+db_credentials.user = 'batool_2018_db';
+db_credentials.host = process.env.AWSRDS_EP;
+db_credentials.database = 'batool_photon_db';
+db_credentials.password = process.env.AWSRDS_PW2;
 db_credentials.port = 5432;
 
 // Connect to the AWS RDS Postgres database

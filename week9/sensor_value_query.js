@@ -6,7 +6,7 @@ var db_credentials = new Object();
 db_credentials.user = 'batool_2018_db';
 db_credentials.host = process.env.AWSRDS_EP;
 db_credentials.database = 'batool_photon_db';
-db_credentials.password = process.env.AWSRDS_PW;
+db_credentials.password = process.env.AWSRDS_PW2;
 db_credentials.port = 5432;
 
 // Connect to the AWS RDS Postgres database
@@ -25,14 +25,14 @@ client.query(thisQuery, (err, res) => {
     }
 });
 
-client.query(secondQuery, (err, res) => {
+client.query(thirdQuery, (err, res) => {
     if (err) {throw err}
     else {
     console.table(res.rows);
     }
 });
 
-client.query(thirdQuery, (err, res) => {
+client.query(secondQuery, (err, res) => {
     if (err) {throw err}
     else {
     console.table(res.rows);

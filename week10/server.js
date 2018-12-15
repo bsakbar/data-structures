@@ -31,8 +31,9 @@ app.get('/sensor', function(req, res) {
     const client = new Pool(db_credentials2);
 
     // SQL query 
-    var q = `SELECT sensorValue, COUNT (*) FROM sensorData GROUP BY sensorValue;`
-
+    // var q = `SELECT sensorValue, COUNT (*) as c FROM sensorData GROUP BY sensorValue ORDER BY c;`
+    // var q = `SELECT * FROM sensorData;`
+    var q = `SELECT ROUND(AVG(sensorValue)) as value, extract(hour from sensorTime) as hour, extract(day from sensorTime) as day FROM sensorData GROUP BY hour,day ORDER BY day;`
     client.connect();
     client.query(q, (qerr, qres) => {
         if (qerr) { throw qerr }
