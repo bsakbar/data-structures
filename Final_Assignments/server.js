@@ -105,7 +105,7 @@ var s1x = `<!DOCTYPE html>
 html {
     position: relative;
     height: 100%;
-		width: 100%;
+	width: 100%;
 }
 
 body {
@@ -128,7 +128,7 @@ body {
 }
 
 .description{
-	margin-top: -40px;
+	margin-top: -20px;
 	margin-left: 60px;
 	font-size: 16px;
 	font-family: sans-serif;
@@ -144,7 +144,7 @@ p{
 svg{
 	padding: 0;
 	margin-left: 60px;
-	margin-top: 40px;
+	margin-top: 70px;
 	width: 1920px;
 	height: 1080px;
 }
@@ -152,63 +152,19 @@ svg{
 .boxes {
 	width:110px;
 	height:110px;
-  fill:#008f96;
+    fill:#008f96;
 	mix-blend-mode: multiply;
 }
-.brackets{
-	color: #fbdb28;
-	margin-left: 60px;
-	margin-top: 0px;
-	font-size: 50px;
-	font-family: sans-serif;
-	font-weight: 600;
-}
+
 .date{
 	font-size: 10px;
 	font-family: sans-serif;
 	font-weight: 200;
 	fill:#ffffff;
 }
-.slidecontainer {
-    width: 100%;
-}
 
-.slider {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 330px;
-    height: 1px;
-    background: #fbdb28;
-    opacity: 1;
-    outline: none;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
-}
 
-.slider:hover {
-    opacity: 0.8;
-}
 
-.slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    background: #fbdb28;
-    cursor: pointer;
-}
-input{
-	margin-top: 0px;
-	margin-left: 60px;
-}
-.filter{
-	margin-top: 45px;
-	margin-left: 60px;
-	font-size: 12px;
-	font-family: sans-serif;
-	font-weight: 400;
-	color:#fbdb28;
-}
 #chart_1, #chart_2, #chart_3,#chart_4,#chart_5,#chart_6, #chart_7,#chart_8,#chart_9,#chart_10,
 #chart_11, #chart_12, #chart_13,#chart_14,#chart_15,#chart_16, #chart_17,#chart_18,#chart_19,#chart_20,
 #chart_21, #chart_22, #chart_23,#chart_24,#chart_25,#chart_26, #chart_27,#chart_28,#chart_29,#chart_30{
@@ -262,8 +218,8 @@ var data_prep = []
           baselineColor: 'none',
           title: '',
           textPosition: 'none',
-          minValue: 700,
-          maxValue: 1700,
+          minValue: 1700,
+          maxValue: 700,
           gridlines: {
             color: 'transparent'
           }
@@ -298,46 +254,44 @@ var data_prep = []
 	</head>
   	<body>
       <div class="charts">
-        <div id="chart_1" style="margin: 193px 0px"></div>
-        <div id="chart_2" style="margin: 193px 120px"></div>
-        <div id="chart_3" style="margin: 193px 240px"></div>
-        <div id="chart_4" style="margin: 193px 360px"></div>
-        <div id="chart_5" style="margin: 193px 480px"></div>
-        <div id="chart_6" style="margin: 193px 600px"></div>
-        <div id="chart_7" style="margin: 193px 720px"></div>
-        <div id="chart_8" style="margin: 193px 840px"></div>
-        <div id="chart_9" style="margin: 193px 960px"></div>
-        <div id="chart_10" style="margin: 193px 1080px"></div>
+        <div id="chart_1" style="margin: 155px 0px"></div>
+        <div id="chart_2" style="margin: 155px 120px"></div>
+        <div id="chart_3" style="margin: 155px 240px"></div>
+        <div id="chart_4" style="margin: 155px 360px"></div>
+        <div id="chart_5" style="margin: 155px 480px"></div>
+        <div id="chart_6" style="margin: 155px 600px"></div>
+        <div id="chart_7" style="margin: 155px 720px"></div>
+        <div id="chart_8" style="margin: 155px 840px"></div>
+        <div id="chart_9" style="margin: 155px 960px"></div>
+        <div id="chart_10" style="margin: 155px 1080px"></div>
 
-        <div id="chart_11" style="margin: 343px 0px"></div>
-        <div id="chart_12" style="margin: 343px 120px"></div>
-        <div id="chart_13" style="margin: 343px 240px"></div>
-        <div id="chart_14" style="margin: 343px 360px"></div>
-        <div id="chart_15" style="margin: 343px 480px"></div>
-        <div id="chart_16" style="margin: 343px 600px"></div>
-        <div id="chart_17" style="margin: 343px 720px"></div>
-        <div id="chart_18" style="margin: 343px 840px"></div>
-        <div id="chart_19" style="margin: 343px 960px"></div>
-        <div id="chart_20" style="margin: 343px 1080px"></div>
+        <div id="chart_11" style="margin: 305px 0px"></div>
+        <div id="chart_12" style="margin: 305px 120px"></div>
+        <div id="chart_13" style="margin: 305px 240px"></div>
+        <div id="chart_14" style="margin: 305px 360px"></div>
+        <div id="chart_15" style="margin: 305px 480px"></div>
+        <div id="chart_16" style="margin: 305px 600px"></div>
+        <div id="chart_17" style="margin: 305px 720px"></div>
+        <div id="chart_18" style="margin: 305px 840px"></div>
+        <div id="chart_19" style="margin: 305px 960px"></div>
+        <div id="chart_20" style="margin: 305px 1080px"></div>
 
-        <div id="chart_21" style="margin: 493px 0px"></div>
-        <div id="chart_22" style="margin: 493px 120px"></div>
-        <div id="chart_23" style="margin: 493px 240px"></div>
-        <div id="chart_24" style="margin: 493px 360px"></div>
-        <div id="chart_25" style="margin: 493px 480px"></div>
-        <div id="chart_26" style="margin: 493px 600px"></div>
-        <div id="chart_27" style="margin: 493px 720px"></div>
-        <div id="chart_28" style="margin: 493px 840px"></div>
-        <div id="chart_29" style="margin: 493px 960px"></div>
-        <div id="chart_30" style="margin: 493px 1080px"></div>
+        <div id="chart_21" style="margin: 455px 0px"></div>
+        <div id="chart_22" style="margin: 455px 120px"></div>
+        <div id="chart_23" style="margin: 455px 240px"></div>
+        <div id="chart_24" style="margin: 455px 360px"></div>
+        <div id="chart_25" style="margin: 455px 480px"></div>
+        <div id="chart_26" style="margin: 455px 600px"></div>
+        <div id="chart_27" style="margin: 455px 720px"></div>
+        <div id="chart_28" style="margin: 455px 840px"></div>
+        <div id="chart_29" style="margin: 455px 960px"></div>
+        <div id="chart_30" style="margin: 455px 1080px"></div>
       </div>
 
 			<p class="title">Photocell Data</p>
-			<p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			<p class="filter">Filter by value</p>
-			<div class="slidecontainer">
-			  <input type="range" min="1000" max="1500" value="1200" class="slider" step="15" id="myRange">
-			</div>
+			<p class="description">The boxes below show my sensor's data from November 22nd– December 22nd, the x–axis holds the time of 24 hours, and the y–axis displays
+			<br>the value range:700Ω–1700Ω. The sensor measures the light exposure in my livingroom.</p>
+		
 
 
 			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">

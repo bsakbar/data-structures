@@ -201,4 +201,6 @@ The original sketch had a filtering options; filter by month or value.
 ![](https://github.com/bsakbar/data-structures/blob/master/week8/Photocell_sketch.png)
 
 But since we only have data for one month, I decided to go with the popup window only.
-![]()
+![](https://github.com/bsakbar/data-structures/blob/master/Final_Assignments/Links/scatterplot_function.png)
+
+- It's noticable that there's some missing data in days 17-21, it's because it hasnt completed 30 days yet, and I started collecting the data on November 22nd. The data will be automatically added when a new day starts. 
