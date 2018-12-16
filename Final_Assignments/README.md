@@ -100,7 +100,81 @@ this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "
   ## 3. Photocell Sensor
  
  [Sensor Endpoint](http://35.170.62.91:8080/sensor) | [Sensor Visualization](http://35.170.62.91:8080/ss)
+
+This was the most interesting project in my opinion, I was fascinated by the sensor's abilities, very tiny but collects a lot of data. I've been working with the photoresistor, I am measuring the light exposure in my livingroom, the device has been sitting on my TV stand, next to a table lamp and between two windows. 
  
+ - We started with setting up the new photon and Particle console, to register a Particle.variable() with the cloud to read brightness levels.
+ ```javascript
+int photoresistor = A0;
+
+int analogvalue; 
+
+void setup() {
+    pinMode(photoresistor,INPUT);
+    Particle.variable("analogvalue", &analogvalue, INT);
+}
+
+void loop() {
+    analogvalue = analogRead(photoresistor);
+    delay(100);
+}
+```
+ - We sat up a single variable that was accessible by the Partciel API, so we modified the URL with the device ID and the access token:(https://api.particle.io/v1/devices/260026000947373034353237/analogvalue?access_token=1ae454d3f4d52817deb767d7bc611681442c49d8), the variable returned as a JSON string, that showed the vlaue, device information and status. 
+```
+{
+    cmd: "VarReturn",
+    name: "analogvalue",
+    result: 1030,
+        coreInfo: {
+            last_app: "",
+            last_heard: "2018-12-16T16:32:42.682Z",
+            connected: true,
+            last_handshake_at: "2018-12-16T16:32:38.380Z",
+            deviceID: "260026000947373034353237",
+            product_id: 6
+        }
+}
+```
+- We created a table for the sensor in the database and began dropping values to the table every 5 minutes.
+- I used Postgres to store my sensor's data. 
+```javascript
+var thisQuery = "DROP TABLE IF EXISTS sensorData; CREATE TABLE sensorData ( sensorValue integer, sensorTime timestamp DEFAULT current_timestamp );";
+```
+- At that point, the sensor still wasn't able to write values by its own. So we wrote a script that would run continuously in the background, and send the values to the database every 5 minutes.
+```javascript
+var sv = JSON.parse(body).result;
+        const client = new Client(db_credentials);
+        client.connect();
+        var thisQuery = "INSERT INTO sensorData VALUES (" + sv + ", DEFAULT);";
+        
+        setInterval(getAndWriteData, 300000);
+```
+- Then we created a web server application in Node.js to respond to requests for JSON data that include only the data we need for the visualization. 
+```javascript
+// respond to requests for /sensor
+app.get('/sensor', function(req, res) {
+    
+    // Connect to the AWS RDS Postgres database
+    const client = new Pool(db_credentials2);
+
+    // SQL query 
+    // var q = `SELECT sensorValue, COUNT (*) as c FROM sensorData GROUP BY sensorValue ORDER BY c;`
+    // var q = `SELECT * FROM sensorData;`
+    var q = `SELECT ROUND(AVG(sensorValue)) as value, extract(hour from sensorTime) as hour, extract(day from sensorTime) as day FROM sensorData GROUP BY hour,day ORDER BY day;`
+    client.connect();
+    client.query(q, (qerr, qres) => {
+        if (qerr) { throw qerr }
+        else {
+            res.send(qres.rows);
+            client.end();
+            console.log('1) responded to request for sensor data');
+        }
+    });
+});
+```
+In my case, the original written data looked like [this](https://github.com/bsakbar/data-structures/blob/master/week9/test.json), but I wanted to abstract the data so I calculated the average/hour instead of every 5 minutes. 
+
+
  
  
  
