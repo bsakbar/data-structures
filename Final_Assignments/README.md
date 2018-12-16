@@ -96,7 +96,7 @@ this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "
         ProjectionExpression : "weather, colors"
  }
  ```
- - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature.
+ - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature, which were read from DynamoDB and then used it to populate a 4x3 grid of squares. Each square shows the 7 colors of every picture. The weather description and temperature appear when mouse hovers over the square. The script for creating the 4x3 grid visualization is below:
  
 ```javascript
 for (var row = 0; row < 3; row++){
