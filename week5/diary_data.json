@@ -10,7 +10,7 @@
                              "warmth": "+6",
                              "tint": "+10" }
                 },
-    "colors": ["#FF7900", "#FF4E00", "#4A6B89"],
+    "colors": ["#504e6d","#735365","#a05b59","#fd8b54","#fdb86c","#ffe470","#8a8b84"],
     "location": "New York"
 },
 {
@@ -24,7 +24,7 @@
                              "warmth": "-25",
                              "tint": "+30" }
                 },
-    "colors": ["#FFA58D", "#FF97BD", "#92B1FF"],
+    "colors": ["#e78584","#da7574","#f8756b","#d1737b","#e7787c","#c97b80","#fb756b"],
     "location": "New York"
 },
 {
@@ -38,7 +38,7 @@
                          "warmth": "+20",
                          "tint": "+28" }
             },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "colors": ["#c898b3","#9d7a99","#7a6181","#e7aab4","#f9aca5","#fd988f","#e07b7f"],
     "location": "Buffalo"
 },
 {
@@ -52,7 +52,7 @@
                          "warmth": "0",
                          "tint": "0" }
             },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "colors": ["#aba0b8","#8c83a1","#eed3c2","#fde6b5","#7483b7","#9998bb","#c8b8c2"],
     "location": "New York"
 },
 {
@@ -66,12 +66,25 @@
                          "warmth": "+7",
                          "tint": "+28" }
             },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "colors": ["#00225a","#023a79","#08488a","#1b5791","#55657c","#b17318","#9b4e04"],
     "location": "New York"
 },
 {
     "photo_reference":"string",
-    "weather": { "temperature": "66", "description": "cloudy"},
+    "weather": { "temperature": "72", "description": "sunny"},
+    "time": { "day": "Wednesday", "time": "7:22" },
+    "filters": { "light" : { "exposure":  "+5",
+                        "contrast": "+12",
+                        "shadows": "-5"},
+            "color" : { "saturation": "+22",
+                         "warmth": "+20",
+                         "tint": "+28" }
+            },
+    "colors": ["#00b4fb","#00c8ff","#0fe1ff","#0397e8","#03a4f1","#0186dd","#0068be"],
+    "location": "New York"
+},{
+    "photo_reference":"string",
+    "weather": { "temperature": "56", "description": "sunny"},
     "time": { "day": "Friday", "time": "7:22" },
     "filters": { "light" : { "exposure":  "+5",
                         "contrast": "+12",
@@ -80,7 +93,7 @@
                          "warmth": "+20",
                          "tint": "+28" }
             },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "colors": ["#a8aada","#b4b6db","#c4b1cc","#d1a1b4","#cd8da8","#c780a2","#bb6b9b"],
     "location": "New York"
 },{
     "photo_reference":"string",
@@ -93,11 +106,50 @@
                          "warmth": "+20",
                          "tint": "+28" }
             },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "colors": ["#485865","#607285","#76a6c7","#5984a3","#d4d2ad","#ceb56e","#ee956a"],
+    "location": "New York"
+},{
+    "photo_reference":"string",
+    "weather": { "temperature": "63", "description": "cloudy"},
+    "time": { "day": "Tuesday", "time": "7:22" },
+    "filters": { "light" : { "exposure":  "+5",
+                        "contrast": "+12",
+                        "shadows": "-5"},
+            "color" : { "saturation": "+22",
+                         "warmth": "+20",
+                         "tint": "+28" }
+            },
+    "colors": ["#060f27","#0c2244","#2d375c","#444c79","#995355","#cc553a","#91060e"],
+    "location": "New York"
+},{
+    "photo_reference":"string",
+    "weather": { "temperature": "43", "description": "rainy"},
+    "time": { "day": "Saturday", "time": "7:22" },
+    "filters": { "light" : { "exposure":  "+5",
+                        "contrast": "+12",
+                        "shadows": "-5"},
+            "color" : { "saturation": "+22",
+                         "warmth": "+20",
+                         "tint": "+28" }
+            },
+    "colors": ["#abb3d4","#b3b9e0","#b4bede","#b7c1dc","#acb1d5","#9bacd8","#92a7d8"],
     "location": "New York"
 },{
     "photo_reference":"string",
     "weather": { "temperature": "66", "description": "cloudy"},
+    "time": { "day": "Sunday", "time": "7:22" },
+    "filters": { "light" : { "exposure":  "+5",
+                        "contrast": "+12",
+                        "shadows": "-5"},
+            "color" : { "saturation": "+22",
+                         "warmth": "+20",
+                         "tint": "+28" }
+            },
+    "colors": ["#a19ba3","#b6afb4","#c2bcbe","#dfc4b4","#f0bd9d","#faa77d","#ea8773"],
+    "location": "New York"
+},{
+    "photo_reference":"string",
+    "weather": { "temperature": "35", "description": "sunny"},
     "time": { "day": "Friday", "time": "7:22" },
     "filters": { "light" : { "exposure":  "+5",
                         "contrast": "+12",
@@ -106,59 +158,7 @@
                          "warmth": "+20",
                          "tint": "+28" }
             },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
-    "location": "New York"
-},{
-    "photo_reference":"string",
-    "weather": { "temperature": "66", "description": "cloudy"},
-    "time": { "day": "Friday", "time": "7:22" },
-    "filters": { "light" : { "exposure":  "+5",
-                        "contrast": "+12",
-                        "shadows": "-5"},
-            "color" : { "saturation": "+22",
-                         "warmth": "+20",
-                         "tint": "+28" }
-            },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
-    "location": "New York"
-},{
-    "photo_reference":"string",
-    "weather": { "temperature": "66", "description": "cloudy"},
-    "time": { "day": "Friday", "time": "7:22" },
-    "filters": { "light" : { "exposure":  "+5",
-                        "contrast": "+12",
-                        "shadows": "-5"},
-            "color" : { "saturation": "+22",
-                         "warmth": "+20",
-                         "tint": "+28" }
-            },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
-    "location": "New York"
-},{
-    "photo_reference":"string",
-    "weather": { "temperature": "66", "description": "cloudy"},
-    "time": { "day": "Friday", "time": "7:22" },
-    "filters": { "light" : { "exposure":  "+5",
-                        "contrast": "+12",
-                        "shadows": "-5"},
-            "color" : { "saturation": "+22",
-                         "warmth": "+20",
-                         "tint": "+28" }
-            },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
-    "location": "New York"
-},{
-    "photo_reference":"string",
-    "weather": { "temperature": "66", "description": "cloudy"},
-    "time": { "day": "Friday", "time": "7:22" },
-    "filters": { "light" : { "exposure":  "+5",
-                        "contrast": "+12",
-                        "shadows": "-5"},
-            "color" : { "saturation": "+22",
-                         "warmth": "+20",
-                         "tint": "+28" }
-            },
-    "colors": ["#F49976", "#77688E", "#FF9648"],
+    "colors": ["#1b395a","#304d6d","#696e84","#857d88","#a77e67","#e9a361","#fa860e"],
     "location": "New York"
 }
 ]

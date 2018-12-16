@@ -4,12 +4,12 @@ const { Pool } = require('pg');
 var AWS = require('aws-sdk');
 
 // AWS RDS credentials
-var db_credentials = new Object();
-db_credentials.user = 'bsakbar';
-db_credentials.host = process.env.AWSRDS_EP;
-db_credentials.database = 'mydb';
-db_credentials.password = process.env.AWSRDS_PW;
-db_credentials.port = 5432;
+// var db_credentials = new Object();
+// db_credentials.user = 'bsakbar';
+// db_credentials.host = process.env.AWSRDS_EP;
+// db_credentials.database = 'mydb';
+// db_credentials.password = process.env.AWSRDS_PW;
+// db_credentials.port = 5432;
 
 // AWS DynamoDB credentials
 AWS.config = new AWS.Config();
@@ -74,25 +74,13 @@ app.get('/deardiary', function(req, res) {
 
     // Connect to the AWS DynamoDB database
     var dynamodb = new AWS.DynamoDB();
-    
+
     var params = {
         TableName : "deardiary",
-        KeyConditionExpression: "pk = :this_pk",
-        FilterExpression: "#k_weather.#k_description = :weather and #tm.#dy= :this_day", // the query expression 
-        ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
-            "#k_weather" : "weather",
-            "#k_description" : "description",
-            "#tm" : "time",
-            "#dy" : "day"
-        },
-        ExpressionAttributeValues: { // the query values
-            ":this_pk": {N: "2"},
-            ":weather": {S: "sunny"},
-            ":this_day": {S: "Saturday"}
-        }
-    };
+        ProjectionExpression : "weather, colors"
+    }
 
-    dynamodb.query(params, function(err, data) {
+    dynamodb.scan(params, function(err, data) {
         if (err) {
             console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
         }
