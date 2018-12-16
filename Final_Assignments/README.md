@@ -7,7 +7,7 @@ Expanding on the first steps where we:
 - organized the data into a JSON format. 
 - made a request to the Texas A&M Geoservices Geocoding APIs for each address.
 - cleaned the data:
-```ruby
+```javascript
 function isNumeric(s) {
     return !isNaN(s - parseFloat(s));
 }
@@ -18,12 +18,19 @@ $('h4').each(function(i, elem) {
 ```
 In the code above, I tried to standardize the format of the data, and since we were dealing with addresses only, I trimmed the addresses by using a function where it checked if the character was a number or NAN. [Function Source](https://stackoverflow.com/questions/8935632/check-if-character-is-number)
 - We started working with databases (that was cool), and sketched a data model (a SQL one) for the meetings to be stored in the DB. The structure of my model consists of 4 tables:
-1. Meeting Details
-2. GeoCode
-3. Group Details
-4. Addresses 
 
-![My Model](https://github.com/bsakbar/data-structures/blob/master/week4/AA%20Meetings%20.png)
+| Meeting Details  | Geocode | Group Details | Addresses |
+| --- | --- | --- | --- |
+| id | id | id | id |
+| groupid | addressid | addressid | street
+| start time | longitude | group name | city
+| end time | latitude | notes | state
+| day |  | wheelchair | zipcode
+| meeting type |
+| special interest |
+
+
+[My Model](https://github.com/bsakbar/data-structures/blob/master/week4/AA%20Meetings%20.png)
 
 
 - Later 
