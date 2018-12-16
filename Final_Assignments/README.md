@@ -1,5 +1,7 @@
 # Final Assignments
 
+[Link](http://35.170.62.91:8080/) to all assignments.
+
 ## 1. AA Meetings
 
 [Meetings Endpoint](http://35.170.62.91:8080/aameetings) |  [Meetings Map](http://35.170.62.91:8080/aa)
