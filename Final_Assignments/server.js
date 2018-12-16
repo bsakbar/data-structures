@@ -548,6 +548,119 @@ app.get('/aa', function(req, res) {
     });
 });
 
+var d1 = `<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    /* remove default padding and center the sketch on the page */
+    html, body {
+      height:100%;
+      padding:0;
+      margin:0;
+      background:#e5e5e5; }
+
+    body {
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    img{
+      width: 350px;
+      position: absolute;
+      margin: -190px -60px;
+    }
+
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.dom.min.js"></script>
+
+  <script language="javascript" type="text/javascript">
+  var gap = 22;
+  var offset = 14;
+  var sqSide = 98;
+  var marginX = 121;
+  var marginY = 250;
+  var textX = 121;
+  var textY = 645;
+
+
+  function preload() {
+    fontLight = loadFont('Fonts/Ubuntu-Light.ttf');
+    fontReg = loadFont('Fonts/Ubuntu-Regular.ttf');
+  }
+
+  function setup(){
+  createCanvas(700,700);
+  }
+
+
+  function draw(){
+    background(255);
+    noFill();
+    noStroke();
+    rect(350,350,699,699);
+
+    var data = `
+
+var d2 = `;
+
+    for (var row = 0; row < 3; row++){
+      for (var col = 0; col < 4; col++){
+        var sqX = marginX + col * (sqSide + gap)
+        var sqY = marginY + row * (sqSide + gap)
+        for (var i = 0; i < 7; i++){
+          noStroke();
+          fill(data[4*row+col]['colors']['SS'][i]);
+          rect(sqX, sqY + i*offset, sqSide, sqSide/7);
+        }
+        if(mouseX > sqX && mouseX < sqX + sqSide && mouseY > sqY && mouseY < sqY + sqSide){
+          fill(42,49,104,20);
+          rect(sqX, sqY, sqSide, sqSide);
+          textAlign(LEFT);
+          textFont(fontLight);
+          textSize(10);
+          fill(50);
+          text(data[4*row+col]['weather']['M']['description']['S']+'    |   '+data[4*row+col]['weather']['M']['temperature']['N'],textX, textY);
+        }
+      }
+    }
+
+
+  }
+
+  </script>
+</head>
+<body>
+<img src="SVG/DD_svg.svg">
+
+</body>
+</html>
+`
+
+app.get('/dd', function(req, res) {
+
+    // Connect to the AWS DynamoDB database
+    var dynamodb = new AWS.DynamoDB();
+
+    var params = {
+        TableName : "deardiary",
+        ProjectionExpression : "weather, colors"
+    }
+
+    dynamodb.scan(params, function(err, data) {
+        if (err) {
+            console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+        }
+        else {
+            var resp = d1 + JSON.stringify(data.Items) + d2;
+            res.send(resp);
+            console.log('3) responded to request for dear diary data');
+        }
+    });
+
+});
 
 // serve static files in /public
 app.use(express.static('public'));
