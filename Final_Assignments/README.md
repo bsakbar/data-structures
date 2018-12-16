@@ -17,7 +17,7 @@ $('h4').each(function(i, elem) {
     addressline2 = $(elem).parent().text().split('\n')[4].trim()
 ```
 In the code above, I tried to standardize the format of the data, and since we were dealing with addresses only, I trimmed the addresses by using a function where it checked if the character was a number or NAN. [Function Source](https://stackoverflow.com/questions/8935632/check-if-character-is-number)
-- We started working with databases (that was cool), and sketched a data model (a SQL one) for the meetings to be stored in the DB. The structure of my model consists of 4 tables:
+- Then we started working with databases (that was cool), and sketched a data model (a SQL one) for the meetings to be stored in the DB. The structure of[my model](https://github.com/bsakbar/data-structures/blob/master/week4/AA%20Meetings%20.png) consists of 4 tables:
 
 | Meeting Details  | Geocode | Group Details | Addresses |
 | --- | --- | --- | --- |
@@ -29,8 +29,16 @@ In the code above, I tried to standardize the format of the data, and since we w
 | meeting type |
 | special interest |
 
-
-[My Model](https://github.com/bsakbar/data-structures/blob/master/week4/AA%20Meetings%20.png)
-
-
-- Later 
+- created the tables in the DB, inserted the data, ran queries to make sure the data had been populated successfully. 
+```javascript
+var thisQuery = "SELECT * FROM address;";
+var thisQuery = "SELECT * FROM geocode;";
+var thisQuery = "SELECT count(*) FROM address JOIN geocode on address.ID=geocode.addressID;";
+```
+- finally the visualization: a map using Leaflet, that shows the meeting locations *(using the longitude and latitude in a function)*, the bindPopup function shows more details *(Group Details: name, notes, wheelchair accessibility)*  when the marker is clicked. 
+```javascript
+for (var i=0; i<data.length; i++) {
+        L.marker( [data[i].lat, data[i].lon] ).bindPopup(JSON.stringify(data[i].meetings)).addTo(mymap);
+    }
+ ```
+ 
