@@ -2,6 +2,8 @@
 
 ## 1. AA Meetings
 
+[Meetings Endpoint](http://35.170.62.91:8080/aameetings) |  [Meetings Map](http://35.170.62.91:8080/aa)
+
 Expanding on the first steps where we:
 - parsed the html files to extract relevant data for the AA meetings. 
 - organized the data into a JSON format. 
@@ -35,7 +37,15 @@ var thisQuery = "SELECT * FROM address;";
 var thisQuery = "SELECT * FROM geocode;";
 var thisQuery = "SELECT count(*) FROM address JOIN geocode on address.ID=geocode.addressID;";
 ```
-- finally the [visualization](http://35.170.62.91:8080/aa): a map using Leaflet, that shows the meeting locations *(using the longitude and latitude in a function)*, the bindPopup function shows more details *(Group Details: name, notes, wheelchair accessibility)*  when the marker is clicked. [Meetings Data](http://35.170.62.91:8080/aameetings)
+- we executed a query to filter meetings based on the final visualization.
+```javascript
+    var thisQuery = `SELECT b.Latitude, b.Longitude, json_agg(json_build_object('street', a.Street, 'city', a.City, 'state', a.State, 'zipcode', a.zipcode, 'groupname', c.GroupName, 'notes', c.Notes, 'wheelchair', c.Wheelchair)) as meetings
+                 FROM address a 
+                 JOIN geocode b on a.ID=b.addressID
+                 JOIN Group_Details c on a.ID=c.addressID
+                 GROUP BY b.Latitude, b.Longitude;`;
+```
+- finally the visualization: a map using Leaflet, that shows the meeting locations *(using the longitude and latitude in a function)*, the bindPopup function shows more details *(Group Details: name, notes, wheelchair accessibility)*  when the marker is clicked. 
 ```javascript
 for (var i=0; i<data.length; i++) {
         L.marker( [data[i].lat, data[i].lon] ).bindPopup(JSON.stringify(data[i].meetings)).addTo(mymap);
@@ -45,7 +55,7 @@ for (var i=0; i<data.length; i++) {
  
  ## 2. Dear Diary
  
-- I enjoyed this assignment because I got to utilize my habbit of taking photos of sunsets in a project. 
+I enjoyed this assignment because I got to utilize my habbit of taking photos of sunsets in a project. 
 The data of the photos are:
  1. time of the photo. 
  ```javascript
@@ -74,7 +84,19 @@ this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "
  }
 ```
  - We kickedoff the project with desinging a non–schema model for the DD data to be stored in DynamoDB. My [data model](https://github.com/bsakbar/data-structures/blob/master/week5/noSQL-data%20model.png) is basically a tree chart, some branches have sub–branches and some dont, which makes the "noSQL" choice of desiging the model perfect. 
- - Then we populated the database with the diary enteries. ([screenshot of the table on DynamoDB](https://github.com/bsakbar/data-structures/blob/master/week5/Screen%20Shot%202018-10-11%20at%2011.36.18%20PM.png))
+ - Then we populated the database with the diary enteries. ([screenshot of the table on DynamoDB](https://github.com/bsakbar/data-structures/blob/master/week5/Screen%20Shot%202018-10-11%20at%2011.36.18%20PM.png)).
+ - Like we did for the AA Meetings, we executed a NoSQL query to filter diary entries based on the final visualization. 
+ ```javascript
+ var params = {
+        TableName : "deardiary",
+        ProjectionExpression : "weather, colors"
+ }
+ ```
+ - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature. 
+ (example of how colors are 
+ 
+ 
+ 
 
  
  
