@@ -195,13 +195,17 @@ Here how it looks now:
 ]
 ```
 -My final visualization works as a calendar, I used [Google Charts](https://developers.google.com/chart/interactive/docs/gallery/scatterchart), each day is a scatter plot, the x–axis is for the time, and y–axis is for the value. If mouse hovers over the diamond icons, a small popup window shows the time and value.
+In addition, the value ranges from 700Ω–1700Ω, the higher the position of the icon on the plot, the higher the value, which indicates that there was low light, because the more light the lower resistance.
 
 The original sketch had a filtering options; filter by month or value.
 
 ![](https://github.com/bsakbar/data-structures/blob/master/week8/Photocell_sketch.png)
 
-But since we only have data for one month, I decided to go with the popup window only. This is the live data:
+But since we only have data for one month, I decided to go with the popup window only. This is a screenshot of the live visualization:
 
-![](https://github.com/bsakbar/data-structures/blob/master/Final_Assignments/Links/scatterplot_function.png =30x30)
+![](https://github.com/bsakbar/data-structures/blob/master/Final_Assignments/Links/scatterplot_function.png)
 
-- It's noticable that there's some missing data in days 17-21, it's because it hasnt completed 30 days yet, and I started collecting the data on November 22nd. The data will be automatically added when a new day starts. 
+- It's noticable that there's some missing data in days 17-21, it's because it hasn't completed 30 days yet, and I started collecting the data on November 22nd. The data will be automatically added when a new day starts. 
+
+
+___
