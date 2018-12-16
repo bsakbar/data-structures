@@ -41,5 +41,40 @@ for (var i=0; i<data.length; i++) {
         L.marker( [data[i].lat, data[i].lon] ).bindPopup(JSON.stringify(data[i].meetings)).addTo(mymap);
     }
  ```
+ *Note: Some locations are outside of Manhattan, which could be because of Texas Geocoding APIs. ( I found it strange especially because I used the longitudes and latitudes for locations).*
+ 
+ ## 2. Dear Diary
+ 
+- I enjoyed this assignment because I got to utilize my habbit of taking photos of sunsets in a project. 
+The data of the photos are:
+ 1. time of the photo. 
+ ```javascript
+this.time.M = {"day": {"S": time.day}, "time": {"S": time.time} }
+```
+ 2. location of the photo. *("mkan" means location in Arabic, for an unknown reason I used it)*
+ ```javascript
+ this.mkan= {};
+    this.mkan.S = location;
+ ```
+ 3. colors of photo *(I used illustrator Eye-Drop tool to get the color code)*.
+ ```javascript
+ if (colors != null) {
+        this.colors = {};
+        this.colors.SS= colors;
+    }
+ ```   
+ 4. weather description and temperature.
+ ```javascript
+this.weather.M = { "temperature": {"N": weather.temperature}, "description" : {"S": weather.description} }
+```
+ 5. photo filters if any. 
+ ```javascript
+this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "contrast": {"N": filters.light.contrast}, "shadows": {"N": filters.light.shadows} } }, 
+                      "color" : {"M" : {"saturation": {"N": filters.color.saturation}, "warmth": {"N": filters.color.warmth}, "tint": {"N": filters.color.tint} } } 
+ }
+```
+ - We kickedoff the project with desinging a non–schema model for the DD data to be stored in DynamoDB. My [data model](https://github.com/bsakbar/data-structures/blob/master/week5/noSQL-data%20model.png) is basically a tree chart, some branches have sub–branches and some dont, which makes the "noSQL" choice of desiging the model perfect. 
+ - Then we populated the database with the diary enteries. ([screenshot of the table on DynamoDB](https://github.com/bsakbar/data-structures/blob/master/week5/Screen%20Shot%202018-10-11%20at%2011.36.18%20PM.png))
+
  
  
