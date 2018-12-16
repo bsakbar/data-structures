@@ -68,7 +68,7 @@ this.time.M = {"day": {"S": time.day}, "time": {"S": time.time} }
  this.mkan= {};
     this.mkan.S = location;
  ```
- 3. colors of photo *(I used illustrator Eye-Drop tool to get the color code)*.
+ 3. colors of photo *(I used illustrator eyedropper tool to get the color code)*.
  ```javascript
  if (colors != null) {
         this.colors = {};
@@ -95,6 +95,11 @@ this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "
  }
  ```
  - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature.
+
+
+  ## 3. Photocell Sensor
+ 
+ [Sensor Endpoint](http://35.170.62.91:8080/sensor) | [Sensor Visualization](http://35.170.62.91:8080/ss)
  
  
  
