@@ -55,7 +55,9 @@ for (var i=0; i<data.length; i++) {
  
  ## 2. Dear Diary
  
-I enjoyed this assignment because I got to utilize my habbit of taking photos of sunsets in a project. 
+ [Dear Diary Endpoint](http://35.170.62.91:8080/deardiary) | [Diary Visualization](http://35.170.62.91:8080/dd)
+ 
+I enjoyed this assignment because I got to utilize my habbit of taking [photos of sunsets](https://github.com/bsakbar/data-structures/blob/master/sunset_photos/Screen%20Shot%202018-12-16%20at%2012.17.20%20AM.png) in a project. 
 The data of the photos are:
  1. time of the photo. 
  ```javascript
@@ -92,8 +94,10 @@ this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "
         ProjectionExpression : "weather, colors"
  }
  ```
- - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature. 
- (example of how colors are 
+ - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature.
+ 
+ 
+ 
  
  
  
