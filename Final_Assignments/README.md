@@ -184,7 +184,7 @@ In my case, the original written data looked like [this](https://github.com/bsak
  
 >>>>>>> 872cfbbca5b045cf5085d437710697d7b6c0e8e2
 
-This was the most interesting project in my opinion, I was fascinated by the sensor's abilities, very tiny but collects a lot of data. I've been working with the photoresistor, I am measuring the light exposure in my livingroom, the device has been sitting on my TV stand, next to a table lamp and between two windows. 
+This was the most interesting project in my opinion, I was fascinated by the sensor's abilities, very tiny but collects a lot of data. I've been working with a [photoresistor](https://github.com/bsakbar/data-structures/blob/master/week8/Photoresistor_2.png), I am measuring the light exposure in my livingroom, the device has been sitting on my TV stand, next to a table lamp and between two windows.  
  
  - We started with setting up the new photon and Particle console, to register a Particle.variable() with the cloud to read brightness levels.
  ```javascript
@@ -274,8 +274,11 @@ In my case, the original written data looked like [this](https://github.com/bsak
         day: 1
     }
 ]
-
+```
 -My final visualization works as a calendar, I used [Google Charts](https://developers.google.com/chart/interactive/docs/gallery/scatterchart), each day is a scatter plot, the x–axis is for the time, and y–axis is for the value. If mouse hovers over the diamond icons, a small popup window shows the time and value.
+
 The original sketch had a filtering options; filter by month or value.
-![]()
-But since we only have data for one month, I decided to 
+
+![](https://github.com/bsakbar/data-structures/blob/master/week8/Photocell_sketch.png)
+
+But since we only have data for one month, I decided to go with the popup window only. 
