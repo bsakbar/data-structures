@@ -18,8 +18,12 @@ $('h4').each(function(i, elem) {
 ```
 In the code above, I tried to standardize the format of the data, and since we were dealing with addresses only, I trimmed the addresses by using a function where it checked if the character was a number or NAN. [Function Source](https://stackoverflow.com/questions/8935632/check-if-character-is-number)
 - We started working with databases (that was cool), and sketched a data model (a SQL one) for the meetings to be stored in the DB. The structure of my model consists of 4 tables:
+1. Meeting Details
+2. GeoCode
+3. Group Details
+4. Addresses 
 
-![My Model](https://github.com/bsakbar/data-structures/blob/master/week4/AA%20Meetings%20.png =250x)
+![My Model](https://github.com/bsakbar/data-structures/blob/master/week4/AA%20Meetings%20.png)
 
 
 - Later 
