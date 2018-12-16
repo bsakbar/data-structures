@@ -97,7 +97,29 @@ this.filters.M = {"light" : {"M" : {"exposure": {"N": filters.light.exposure}, "
  }
  ```
  - I used p5.js for the final visualization, I decided to include the colors, weather description and the temperature.
-
+ 
+```javascript
+for (var row = 0; row < 3; row++){
+      for (var col = 0; col < 4; col++){
+        var sqX = marginX + col * (sqSide + gap)
+        var sqY = marginY + row * (sqSide + gap)
+        for (var i = 0; i < 7; i++){
+          noStroke();
+          fill(data[4*row+col]['colors']['SS'][i]);
+          rect(sqX, sqY + i*offset, sqSide, sqSide/7);
+        }
+        if(mouseX > sqX && mouseX < sqX + sqSide && mouseY > sqY && mouseY < sqY + sqSide){
+          fill(42,49,104,20);
+          rect(sqX, sqY, sqSide, sqSide);
+          textAlign(LEFT);
+          textFont(fontLight);
+          textSize(10);
+          fill(50);
+          text(data[4*row+col]['weather']['M']['description']['S']+'    |   '+data[4*row+col]['weather']['M']['temperature']['N'],textX, textY);
+        }
+      }
+    }
+```
 
   ## 3. Photocell Sensor
  
