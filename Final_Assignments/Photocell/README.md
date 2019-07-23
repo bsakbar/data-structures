@@ -3,7 +3,7 @@
 *This was a data structure class project at Parsons School of Design*
  <!-- [Sensor Endpoint](http://35.170.62.91:8080/sensor) | [Sensor Visualization](http://35.170.62.91:8080/ss) -->
 
-I enjoyed working on this project. I've been working with a [photoresistor](https://github.com/bsakbar/data-structures/blob/master/week8/Photoresistor_2.png), I measured the light exposure in my livingroom, the device had been sitting on my TV stand, next to a table lamp and between two windows.
+I enjoyed working on this project. I worked with a [photoresistor](https://github.com/bsakbar/data-structures/blob/master/week8/Photoresistor_2.png), I measured the light exposure in my livingroom, the device had been sitting on my TV stand, next to a table lamp and between two windows.
 
  - We started with setting up the new photon and Particle console, to register a Particle.variable() with the cloud to read brightness levels.
  ```javascript
