@@ -1,6 +1,5 @@
 ## Dear Diary
 
-[Dear Diary Endpoint](http://35.170.62.91:8080/deardiary) | [Diary Visualization](http://35.170.62.91:8080/dd)
 This project focused on collecting data, designing a (non)schema object, creating a new managed DynamoDB database, and finally writing a code to populate the database with the "Dear Diary" data. My "Dear Diary" data is [sunset photos](https://github.com/bsakbar/data-structures/blob/master/sunset_photos/Screen%20Shot%202018-12-16%20at%2012.17.20%20AM.png):
 
  1. time of the photo.
