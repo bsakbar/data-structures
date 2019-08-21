@@ -64,5 +64,3 @@ for (var row = 0; row < 3; row++){
 ### Final visualization:
 
 ![](https://github.com/bsakbar/data-structures/blob/master/Final_Assignments/Links/dd_SC_2.png)
-
-```
